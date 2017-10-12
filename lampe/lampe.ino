@@ -49,7 +49,8 @@ void toggle_light() {
       colorWipe(strip.Color(0, 0, 0), 50); // Black
       light = false;
     } else {
-      colorWipe(strip.Color(255, 255, 150), 50); // Black
+      //colorWipe(strip.Color(255, 255, 150), 50); // Black
+      rainbowCycle(25);
       light = true;
     }
 }
